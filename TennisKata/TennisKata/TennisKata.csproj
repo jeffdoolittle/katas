@@ -63,9 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Score.cs" />
     <Compile Include="TennisScoreKeeper.cs" />
     <Compile Include="tennis_score_keeper_fixture.cs" />
   </ItemGroup>

@@ -25,11 +25,6 @@ namespace TennisKata
             }
         }
 
-        private bool OnePlayerIsAheadByTwoOrMorePoints()
-        {
-            return Math.Abs(_player1Score - _player2Score) > 1;
-        }
-
         private bool ScoreIsDeuce()
         {
             return _player1Score == _player2Score && _player1Score >= Forty;
@@ -43,6 +38,11 @@ namespace TennisKata
         private bool ScoreExceedsFortyForEitherPlayer()
         {
             return (_player1Score > Forty || _player2Score > Forty);
+        }
+
+        private bool OnePlayerIsAheadByTwoOrMorePoints()
+        {
+            return Math.Abs(_player1Score - _player2Score) >= 2;
         }
 
         private Player WinningPlayer()

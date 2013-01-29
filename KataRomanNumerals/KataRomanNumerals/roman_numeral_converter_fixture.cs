@@ -32,7 +32,8 @@ namespace KataRomanNumerals
                 }
             }
 
-            sb.Insert(0, string.Format("{0} out of {1} test cases failed.\r\n", failCount, TestCases.Length));
+            if (failCount > 0)  
+                sb.Insert(0, string.Format("{0} out of {1} test cases failed.\r\n", failCount, TestCases.Length));
 
             Assert.True(sb.Length == 0, sb.ToString());
         }

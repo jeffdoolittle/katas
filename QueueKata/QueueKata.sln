@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueKata", "QueueKata\QueueKata.csproj", "{F1D128FC-3829-497A-833D-A414DF18E970}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueKata.Tests", "QueueKata.Tests\QueueKata.Tests.csproj", "{3A845C93-CE3D-48B0-9FE7-D7B4621AF4E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8D953E83-A174-49E8-803B-72335146B772}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1D128FC-3829-497A-833D-A414DF18E970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D128FC-3829-497A-833D-A414DF18E970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D128FC-3829-497A-833D-A414DF18E970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D128FC-3829-497A-833D-A414DF18E970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A845C93-CE3D-48B0-9FE7-D7B4621AF4E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A845C93-CE3D-48B0-9FE7-D7B4621AF4E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A845C93-CE3D-48B0-9FE7-D7B4621AF4E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A845C93-CE3D-48B0-9FE7-D7B4621AF4E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A845C93-CE3D-48B0-9FE7-D7B4621AF4E7} = {8D953E83-A174-49E8-803B-72335146B772}
+	EndGlobalSection
+EndGlobal
